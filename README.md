@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# 🎶 Music Discovery App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An interactive full-stack mobile app built with **React Native + Expo**, designed to help users and artists discover, upload, and share music content.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+### 🔐 Authentication
+- Separate login for **Users** and **Artists**
+- Auth managed locally using hardcoded demo credentials
+- Authenticated routes with role-based access
 
-2. Start the app
+### 📺 Feed
+- Infinite scroll of public videos
+- Autoplay with mute on scroll
+- Like ❤️, Comment 💬 (modal), and Share 🔗 features
 
-   ```bash
-    npx expo start
-   ```
+### 🎒 Collections
+- Artists: Public collections visible to all users
+- Users: Private collections (not visible to others)
+- Upload videos by genre, with optional title + caption
+- Genre-wise grouping with horizontal scroll
+- Clean UI with grouped thumbnails
 
-In the output, you'll find options to open the app in a
+### 👤 Profile
+- Shows your role (User/Artist)
+- Simple clean layout
+- Displays personal style & preferences
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠 Built With
 
-## Get a fresh project
+- **React Native + Expo**
+- **Supabase** (for DB + storage)
+- **Expo AV** for video playback
+- **FileSystem + ImagePicker** for upload flow
+- **TypeScript + Modular Folders**
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 📁 Folder Structure (Simplified)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
