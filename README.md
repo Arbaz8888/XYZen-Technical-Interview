@@ -3,6 +3,7 @@
 A sleek mobile app built with **React Native + Expo**, designed for users and artists to **discover**, **upload**, and **share** music videos — with role-based access, clean UI, and genre-based organization.
 
 ---
+## [Demo Video](https://www.youtube.com/watch?v=6rtK-YmdHvM)
 
 ## 🚀 Features
 
